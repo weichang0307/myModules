@@ -1,2 +1,2 @@
-# myModules include js files which can help simulating 2D physic world.
+# myModules includes js files which can help simulating 2D physic world.
 the documentation is at here https://weichang0307.github.io/mydocument/
