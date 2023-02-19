@@ -15,14 +15,14 @@ class myMatrix{
         return matrix_
 
     }
-    static create(colunm,row,init=0){
+    static create(column,row,init=0){
         let arr=[]
-        for(let i=0;i<colunm;i++){
-            let one_colunm=[]
+        for(let i=0;i<column;i++){
+            let one_column=[]
             for(let i=0;i<row;i++){
-                one_colunm.push(init)
+                one_column.push(init)
             }
-            arr.push(one_colunm)
+            arr.push(one_column)
         }
 
         return arr
@@ -31,14 +31,14 @@ class myMatrix{
         let nm=this.create(m1.length,m2[0].length)
         for(let i=0;i<nm.length;i++){
             for(let y=0;y<nm[0].length;y++){
-                let colunm=m1[i]
+                let column=m1[i]
                 let row=[]
                 for(let k of m2){
                     row.push(k[y])
                 }
                 let ad=0
                 for(let j=0;j<row.length;j++){
-                    ad+=colunm[j]*row[j]
+                    ad+=column[j]*row[j]
                 }
 
                 
